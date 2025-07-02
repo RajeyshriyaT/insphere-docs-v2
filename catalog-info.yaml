@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: insphere-docs-v2
+  description: Second test TechDocs setup
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: insphere
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: insphere
+spec:
+  type: team
+  profile:
+    displayName: InSphere Team
+  children: []

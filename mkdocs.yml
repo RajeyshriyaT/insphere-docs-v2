@@ -1,0 +1,4 @@
+site_name: InSphere Docs
+
+nav:
+  - Home: index.md

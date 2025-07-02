@@ -4,18 +4,8 @@ metadata:
   name: insphere-docs-v2
   description: Second test TechDocs setup
   annotations:
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: url:https://github.com/RajeyshriyaT/insphere-docs-v2/blob/main/docs
 spec:
   type: documentation
   lifecycle: experimental
   owner: insphere
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: insphere
-spec:
-  type: team
-  profile:
-    displayName: InSphere Team
-  children: []
